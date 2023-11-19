@@ -20,6 +20,11 @@ herb = pd.read_excel('./herb_name.xlsx',header=None)
 
 #获取TCMSP中数据函数
 def TCMSP(herb_name):
+    '''
+    本函数是用于请求TCMSP数据库并获取其中数据的
+    参数：
+    -herb_name:你所需要的药物名字（中文）
+    '''
     #请求TCMSP
     fp = Options()
     fp.add_argument('-headless')
