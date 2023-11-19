@@ -8,7 +8,9 @@ from lxml import etree
 import os
 import pandas as pd
 
-os.chdir(r'C:\Users\peter\Desktop\TCMSP')
+#设置工作路径
+os.chdir(r'C:\Users\peter\Desktop\TCMSP') #直接设置成桌面上的TCMSP文件夹就好了
+
 #创建文件夹
 if not os.path.exists('.\成分靶点数据'):
     os.mkdir('.\成分靶点数据')
